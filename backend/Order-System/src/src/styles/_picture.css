@@ -1,0 +1,25 @@
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+.pictures .picture {
+  padding: 1rem;
+  width: 400px;
+}
+.pictures .picture .pictureContainer {
+  overflow: hidden;
+  height: 40vh;
+}
+.pictures .picture .pictureContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.pictures .picture .pictureContainer img:hover {
+  transform: scale(1.25);
+}

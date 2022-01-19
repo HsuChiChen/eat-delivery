@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "New Tegomin", serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style-type: none;
+}
+.more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+.more button {
+  padding: 0.25rem 0.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+@import "./_nav.css";
+@import "./_search.css";
+@import "./_footer.css";
+@import "./_picture.css";

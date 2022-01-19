@@ -1,0 +1,4 @@
+build
+*.ini
+.DS_Store
+.vscode
