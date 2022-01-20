@@ -229,7 +229,7 @@ ESP32(NodeMCU-32s)每隔3秒會訪問路徑`/Update`的，在未收到訂單時�
     "rfid": [0, 9, 10, 5],
 }
 ```
-ESP32使用`ArduinoJson.h`函式庫進行`json`解析，獲得商品項目、房號位置、RFID資訊。
+ESP32使用`ArduinoJson.h`函式庫進行`json`解析，獲得10項商品的數量、房號位置、對應RFID的UID。
 ```cpp
 template <typename T>
 class Queue {
